@@ -1,0 +1,56 @@
+
+nav{
+    top: 0;
+    width: 70vw !important;
+    margin: auto;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.acolor{
+    color: white !important;
+}
+
+main{
+    position: relative;
+    top: -60px;
+    background: url('https://images.unsplash.com/photo-1608381742187-ea4b48c56630?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fGNpdHklMjBidWlsZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
+    no-repeat center center/cover;
+    padding-top: 30vh;
+    padding-bottom: 20px;
+    color: white;
+}
+.travel{
+    border-right: 1px solid rgb(184, 182, 182);
+}
+
+i{
+    color: rgb(99, 190, 145);
+}
+
+.p-card{
+    font-size: 12px;
+}
+.cir-img{
+    width: 60%;
+    height: 50%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:993px){
+    nav{
+        width: 100vw !important;
+    }
+    .acolor{
+        color: black !important;
+    }
+    #offcanvasNavbar{
+        background-color: rgb(99, 190, 145);
+    }
+}
+@media screen and (max-width:767px) {
+    .travel{
+        border-right: none;
+    }
+}
